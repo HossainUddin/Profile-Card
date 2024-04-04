@@ -1,0 +1,85 @@
+*{
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.background{
+  display: flex;
+  justify-content: center;
+}
+
+.profile-card {
+  margin: 80px auto;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-image: url(../images/design.png);
+  background-repeat: no-repeat;
+}
+
+.card-img{
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.card-img img{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 6px solid white;
+}
+
+.card-text,
+.details{
+  text-align: center;
+  font-size: 20px;
+}
+
+.card-text p{
+  width: 250px;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+.card-text h2{
+  font-weight: 900;
+  font-size: 40px;
+  font-family: monospace;
+}
+.card-text h5{
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.details ul{
+  margin: 10px;
+}
+
+.details ul li{
+  padding: 4px 0;
+}
+
+.social p{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.social ul {
+  display: flex;
+  justify-content: center;
+  font-size: 34px;
+  margin: 20px;
+}
+.social ul li {
+  margin: 10px 10px;
+}
