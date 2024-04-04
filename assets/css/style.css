@@ -53,6 +53,8 @@ a{
   font-weight: 900;
   font-size: 40px;
   font-family: monospace;
+  padding: 0 8px;
+
 }
 .card-text h5{
   padding: 10px 0;
